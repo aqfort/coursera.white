@@ -1,3 +1,3 @@
-### coursera.white
+## coursera.white
 
 # Основы разработки на C++: белый пояс
