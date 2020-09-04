@@ -4,6 +4,7 @@
 #include <set>
 #include <vector>
 #include <map>
+#include <stdexcept>
 
 using namespace std;
 
@@ -36,6 +37,9 @@ public:
 
     //constructor
     Rational(const int &numerator, const int &denominator) {
+        if (denominator == 0) {
+            throw invalid_argument("0 denominator");
+        }
         const int temp = gcd(numerator, denominator);
         NUMER = numerator / temp;
         DENOM = denominator / temp;

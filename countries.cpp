@@ -4,9 +4,9 @@
 
 using namespace std;
 
-void CHANGE_CAPITAL(map<string, string> &data);//doesn't work
-void RENAME(map<string, string> &data);//doesn't work
-void ABOUT(map<string, string> &data);//doesn't work
+void CHANGE_CAPITAL(map<string, string> &data);
+void RENAME(map<string, string> &data);
+void ABOUT(map<string, string> &data);
 void DUMP(const map<string, string> &data);
 
 int main() {
